@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 }
@@ -8,6 +13,8 @@ table,
 form {
 	width: 500px;
 	margin: 20px auto;
+	height: 200px;
+	background-color: #000;
 }
 table {
 	border-collapse: collapse;
@@ -24,4 +31,14 @@ input {
 }
 button {
 	display: block;
+}
+tbody {
+	width: 600px;
+	height: 600px;
+	background-color: #000;
+}
+.deleteBtn {
+	padding: 10px;
+	width: 20px;
+    background-color: blue;
 }

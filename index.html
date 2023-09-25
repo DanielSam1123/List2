@@ -5,32 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet" />
 
-<h1>Dynamically Add & Remove Table Rows</h1>
-<form>
-    <div class="input-row">
-        <label for="url">Url</label>
-        <input type="url" name="url" id="url" />
-    </div>
-    <div class="input-row">
-        <label for="website">Website Name</label>
-        <input type="text" name="website" id="website" />
-    </div>
-    <button>Submit</button>
-</form>
-<table>
-    <thead>
-        <tr>
-            <th>Url</th>
-            <th>Website</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody></tbody>
-</table>
-<script></script>
-</body>
+<body>
+
+
+    <h1>Zawodnicy i Kluby</h1>
+    <form>
+        <div class="input-row">
+            <label for="team">Klub</label>
+            <input type="text" name="team" id="team" />
+        </div>
+
+        <button>Dalej</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <form>
+      <div class="input-row">
+            <label for="ID">ID</label>
+            <input type="text" name="ID" id="ID" />
+        </div>
+      <div class="input-row">
+            <label for="name">Imię</label>
+            <input type="text" name="name" id="name" />
+        </div>
+      <div class="input-row">
+            <label for="secondName">Nazwisko</label>
+            <input type="text" name="secondName" id="secondName" />
+        </div>
+      <div class="input-row">
+            <label for="birth">Data urodzenia</label>
+            <input type="text" name="birth" id="birth" />
+        </div>
+      <div class="input-row">
+            <label for="height">Wzrost</label>
+            <input type="text" name="height" id="height" />
+        </div>
+      <div class="input-row">
+            <label for="weight">Waga</label>
+            <input type="text" name="weight" id="weight" />
+        </div>
+      <div class="input-row">
+            <label for="secondTeam">Klub</label>
+            <input type="text" name="secondTeam" id="secondTeam" />
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Imię</th>
+                    <th>Nazwisko</th>
+                    <th>Data urodzenia</th>
+                    <th>Wzrost (cm)</th>
+                    <th>Waga (kg)</th>
+                    <th>Klub</th>
+
+                </tr>
+            </thead>
+            <script src="script.js"></script>
 </body>
 
 </html>
