@@ -13,38 +13,57 @@
     <table>
         <tr>
             <td>
-                <form>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
                     <div>
                         <label>ID</label>
-                        <input type="text" name="ID">
+                        <input type="text" name="ID" id="ID">
                     </div>
                     <div>
                         <label>Name</label>
-                        <input type="text" name="Name">
+                        <input type="text" name="Name" id="name">
                     </div>
                     <div>
                         <label>secondName</label>
-                        <input type="text" name="secondName">
+                        <input type="text" name="secondName" id="secondName">
                     </div>
                     <div>
                         <label>birth</label>
-                        <input type="text" name="birth">
+                        <input type="text" name="birth" id="birth">
                     </div>
                     <div>
                         <label>height</label>
-                        <input type="text" name="height">
+                        <input type="text" name="height" id="height"> 
                     </div>
                     <div>
                         <label>weight</label>
-                        <input type="text" name="weight">
+                        <input type="text" name="weight" id="weight">
                     </div>
                     <div>
                         <label>club</label>
-                        <input type="text" name="club">
+                        <input type="text" name="club" id="club">
                     </div>
+                    <div class="form-action-button"><input type="submit" value="Submit"></div>
                 </form>
             </td>
-            <td></td>
+            <td>
+                <table class="list" id="playersList">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Imię</th>
+                            <th>Nazwisko</th>
+                            <th>Birth</th>
+                            <th>Height</th>
+                            <th>Weight</th>
+                            <th>Club</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
         </tr>
     </table>
 
