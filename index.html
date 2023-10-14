@@ -6,73 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
 
 <body>
 
-
-    <h1>Zawodnicy i Kluby</h1>
-    <form>
-        <div class="input-row">
-            <label for="team">Klub</label>
-            <input type="text" name="team" id="team" />
-        </div>
-
-        <button>Dalej</button>
-    </form>
     <table>
-        <thead>
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody></tbody>
+        <tr>
+            <td>
+                <form>
+                    <div>
+                        <label>ID</label>
+                        <input type="text" name="ID">
+                    </div>
+                    <div>
+                        <label>Name</label>
+                        <input type="text" name="Name">
+                    </div>
+                    <div>
+                        <label>secondName</label>
+                        <input type="text" name="secondName">
+                    </div>
+                    <div>
+                        <label>birth</label>
+                        <input type="text" name="birth">
+                    </div>
+                    <div>
+                        <label>height</label>
+                        <input type="text" name="height">
+                    </div>
+                    <div>
+                        <label>weight</label>
+                        <input type="text" name="weight">
+                    </div>
+                    <div>
+                        <label>club</label>
+                        <input type="text" name="club">
+                    </div>
+                </form>
+            </td>
+            <td></td>
+        </tr>
     </table>
-    <form>
-      <div class="input-row">
-            <label for="ID">ID</label>
-            <input type="text" name="ID" id="ID" />
-        </div>
-      <div class="input-row">
-            <label for="name">Imię</label>
-            <input type="text" name="name" id="name" />
-        </div>
-      <div class="input-row">
-            <label for="secondName">Nazwisko</label>
-            <input type="text" name="secondName" id="secondName" />
-        </div>
-      <div class="input-row">
-            <label for="birth">Data urodzenia</label>
-            <input type="text" name="birth" id="birth" />
-        </div>
-      <div class="input-row">
-            <label for="height">Wzrost</label>
-            <input type="text" name="height" id="height" />
-        </div>
-      <div class="input-row">
-            <label for="weight">Waga</label>
-            <input type="text" name="weight" id="weight" />
-        </div>
-      <div class="input-row">
-            <label for="secondTeam">Klub</label>
-            <input type="text" name="secondTeam" id="secondTeam" />
-        </div>
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Imię</th>
-                    <th>Nazwisko</th>
-                    <th>Data urodzenia</th>
-                    <th>Wzrost (cm)</th>
-                    <th>Waga (kg)</th>
-                    <th>Klub</th>
 
-                </tr>
-            </thead>
-            <script src="script.js"></script>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
